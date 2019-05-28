@@ -19,7 +19,7 @@ public class ConsultaUsuarios {
 	private UsuarioMapper usuarioMapper;
 	
 	public String insertarUsuario(String username) throws Exception{
-		/*Usuario user_1 = new Usuario();
+		Usuario user_1 = new Usuario();
 		user_1.setNombre("pedro_el");
 		user_1.setApellido1("mama");
 		user_1.setApellido2("jdoej");
@@ -33,9 +33,9 @@ public class ConsultaUsuarios {
 		user_1.setIdtipo(3);
 		user_1.setCuenta("pedro_el");
 		user_1.setContrasenia("pedro_el");
-		user_1.setEstatus("pedro_el");
+		user_1.setEstatus("");
 		
-		insertarUsuario(user_1);*/
+		insertarUsuario(user_1);
 		return "ok";
 	}
 	public void insertarUsuario(Usuario usuario)throws Exception{
