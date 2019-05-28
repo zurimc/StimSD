@@ -15,10 +15,10 @@
     <p:panel header="Login" style="width:400px">
       <h:panelGrid columns="2" cellpadding="5">
         <h:outputLabel for="username" value="Usuario:" />
-        <p:inputText value="#{hello.name}" id="username"
+        <p:inputText value="#{TipoUsuario.usuario.nombre}" id="username"
            required="true" label="username" />
         <h:outputLabel for="password" value="Clave:" />
-        <p:password value="#{hello.apellido}" id="password" required="true"
+        <p:password value="#{TipoUsuario.usuario.contrasenia}" id="password" required="true"
            label="password" />
         <f:facet name="footer">
           <p:commandButton id="loginButton" value="Login"
